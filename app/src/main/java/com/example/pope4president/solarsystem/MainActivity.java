@@ -1,17 +1,41 @@
 package com.example.pope4president.solarsystem;
 
-import android.support.v7.app.ActionBarActivity;
+import android.app.ListActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ArrayAdapter;
+
+import java.util.ArrayList;
+import java.util.Collections;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends ListActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        ArrayList<String> planets = new ArrayList<>();
+        planets.add("Mercury");
+        planets.add("Venus");
+        planets.add("Earth");
+        planets.add("Mars");
+        planets.add("Jupiter");
+        planets.add("Saturn");
+        planets.add("Uranus");
+        planets.add("Neptune");
+
+        Collections.shuffle(planets);
+
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(
+                getListView().getContext(),
+                android.R.layout.simple_list_item_1,
+                planets
+        );
+
+        getListView().setAdapter(adapter);
     }
 
 
