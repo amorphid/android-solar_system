@@ -1,0 +1,5 @@
+/Users/pope4president/code/github.com/amorphid/android-solar_system/app/build/intermediates/classes/debug
+/Users/pope4president/code/github.com/amorphid/android-solar_system/app/build/intermediates/pre-dexed/debug/support-annotations-21.0.3-ef2faac307d226564d7d7ad0a0d852009c1c6a6f.jar
+/Users/pope4president/code/github.com/amorphid/android-solar_system/app/build/intermediates/pre-dexed/debug/internal_impl-21.0.3-6247ff30b0ac27e9724bd07b3ed2a768c6181f19.jar
+/Users/pope4president/code/github.com/amorphid/android-solar_system/app/build/intermediates/pre-dexed/debug/classes-69f0707491739b91b1747ce5ffbffc01ad2f66e5.jar
+/Users/pope4president/code/github.com/amorphid/android-solar_system/app/build/intermediates/pre-dexed/debug/classes-ec4dc79d9319aec1e0268ff3497ab07d8fe9cf22.jar
